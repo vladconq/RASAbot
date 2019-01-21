@@ -1,0 +1,185 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey"
+      },
+      {
+        "intent": "greet",
+        "text": "Halo"
+      },
+      {
+        "intent": "greet",
+        "text": "Hallo"
+      },
+      {
+        "intent": "service.loan",
+        "text": "I want to get a loan"
+      },
+      {
+        "intent": "service.loan",
+        "text": "How do I get a loan?"
+      },
+      {
+        "intent": "service.loan",
+        "text": "I want a loan"
+      },
+      {
+        "intent": "service.loan",
+        "text": "Loan"
+      },
+      {
+        "intent": "service.loan",
+        "text": "I want to borrow money"
+      },
+      {
+        "intent": "service.loan",
+        "text": "How can i borrow money"
+      },
+      {
+        "intent": "service.loan",
+        "text": "I am looking for a loan"
+      },
+      {
+        "intent": "service.loan",
+        "text": "I need a loan"
+      },
+      {
+        "intent": "service.loan",
+        "text": "I need to borrow money"
+      },
+      {
+        "intent": "service.loan.vehicle",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "car",
+            "entity": "vehicle"
+          }
+        ],
+        "text": "Buy a car"
+      },
+      {
+        "intent": "service.loan.vehicle",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "vehicle",
+            "entity": "vehicle"
+          }
+        ],
+        "text": "I need a loan to buy a vehicle"
+      },
+      {
+        "intent": "service.loan.vehicle",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "vehicle",
+            "entity": "vehicle"
+          }
+        ],
+        "text": "I want a vehicle"
+      },
+      {
+        "intent": "service.loan.vehicle",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "car",
+            "entity": "vehicle"
+          }
+        ],
+        "text": "I need a car"
+      },
+      {
+        "intent": "service.loan.vehicle",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "Car",
+            "entity": "vehicle"
+          }
+        ],
+        "text": "Car"
+      },
+      {
+        "intent": "service.loan.vehicle",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Vehicle",
+            "entity": "vehicle"
+          }
+        ],
+        "text": "Vehicle"
+      },
+      {
+        "intent": "service.loan.vehicle",
+        "entities": [
+          {
+            "start": 19,
+            "end": 22,
+            "value": "car",
+            "entity": "vehicle"
+          }
+        ],
+        "text": "I need money for a car"
+      },
+      {
+        "intent": "service.loan.vehicle",
+        "entities": [
+          {
+            "start": 19,
+            "end": 26,
+            "value": "vehicle",
+            "entity": "vehicle"
+          }
+        ],
+        "text": "I need money for a vehicle"
+      },
+      {
+        "intent": "service.loan.vehicle",
+        "entities": [
+          {
+            "start": 9,
+            "end": 16,
+            "value": "vehicle",
+            "entity": "vehicle"
+          }
+        ],
+        "text": "Buying a vehicle"
+      },
+      {
+        "intent": "service.loan.vehicle",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "car",
+            "entity": "vehicle"
+          }
+        ],
+        "text": "Buying a car"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

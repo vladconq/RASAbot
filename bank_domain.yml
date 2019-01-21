@@ -1,0 +1,44 @@
+slots:
+  loan_goal:
+    type: categorical
+    values:
+      - getting out of debt
+      - reduce monthly interest costs
+      - completing a renovation project
+      - major purchase
+      - renovation
+      - buying a vehicle
+      - another goal
+
+intents:
+  - greet
+  - service.loan
+
+entities:
+  - loan_goal
+
+templates:
+  utter_greet:
+    - 'Hello. Welcome to RBC.'
+    - 'Hello, thanks for choosing RBC.'
+  utter_ask_goal:
+    - text: "What is your goal?"
+      buttons:
+        - title: "Getting out of debt"
+          payload: "getting out of debt"
+        - title: "Reduce monthly interest costs"
+          payload: "reduce monthly interest costs"
+        - title: "Completing a renovation project"
+          payload: "completing a renovation project"
+        - title: "Major purchase"
+          payload: "major purchase"
+        - title: "Renovation"
+          payload: "renovation"
+        - title: "Buying a vehicle"
+          payload: "buying a vehicle"
+        - title: "Another goal"
+          payload: "another goal"
+
+actions:
+  - utter_greet
+  - utter_ask_goal
